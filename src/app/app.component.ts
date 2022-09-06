@@ -17,5 +17,8 @@ export class AppComponent {
   title = 'custom-components';
 }
 
-//  Content Projection
+//  Componenti "stateful" e Input default value
+
+// creazione di una card che mostra il body solo se mostro
+// il titolo
 
