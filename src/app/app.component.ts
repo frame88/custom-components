@@ -5,10 +5,8 @@ import { Component, ComponentRef } from '@angular/core';
   template: `
   <div class="container-fluid d-flex justify-content-center mt-5">
     <div class="container text-center">
-      <app-hello name="uno" color="red"></app-hello>
-      <app-hello name="due"></app-hello>
-      <app-hello name="tre"></app-hello>
-  
+      <app-card titolo="form card"></app-card>  
+      <app-card titolo="example card"></app-card>  
     </div>
 
   </div>
@@ -19,8 +17,5 @@ export class AppComponent {
   title = 'custom-components';
 }
 
-// Input Properties
-// style properties dei componenti e variabili di input importate
+//  Content Projection
 
-// Dividere header,main e footer, assegnando ad ognuno un background color diverso,
-// ognuno creato tramite un Componente. Sarebbe comodo?
